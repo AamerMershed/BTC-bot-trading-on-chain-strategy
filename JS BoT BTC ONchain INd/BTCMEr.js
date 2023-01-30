@@ -47,7 +47,7 @@ function getOnChainIndicators() {
       }
 
       // Check if the realized profits-to-value is above 1.5
-      if (realizedProfitsToValue > 1.5) {
+      if (realizedProfitsToValue > 1.50) {
         console.log(
           "Realized profits-to-value for BTC is above 1.5. Consider selling."
         );
