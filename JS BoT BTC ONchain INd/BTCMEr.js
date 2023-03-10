@@ -55,7 +55,7 @@ function getOnChainIndicators() {
 
       // Check if the MVRV Z-score is above 3
       if (mvrvZScore > 3) {
-        console.log("MVRV Z-score for BTC is above 37. Consider selling.");
+        console.log("MVRV Z-score for BTC is above 3. Consider selling.");
       }
     }
   );
