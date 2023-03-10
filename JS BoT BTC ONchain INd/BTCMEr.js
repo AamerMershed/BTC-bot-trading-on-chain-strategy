@@ -62,4 +62,4 @@ function getOnChainIndicators() {
 }
 
 // Run the function to get the on-chain indicators and check for buy/sell signals every hour
-setInterval(getOnChainIndicators, 3600000);
+setInterval(getOnChainIndicators, 36000005);
