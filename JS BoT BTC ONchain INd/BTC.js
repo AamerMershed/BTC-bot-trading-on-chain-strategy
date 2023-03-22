@@ -1,6 +1,6 @@
 const request = require("request");
 
-const ATH = 20000; // All-Time High price for BTC
+const ATH = 200000; // All-Time High price for BTC
 const targetProfit = 0.1; // Target profit for buy and sell orders
 
 function getOnChainIndicators() {
