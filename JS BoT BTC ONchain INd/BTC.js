@@ -1,7 +1,7 @@
 const request = require("request");
 
 const ATH = 20000; // All-Time High price for BTC
-const targetProfit = 0.11; // Target profit for buy and sell orders
+const targetProfit = 0.1; // Target profit for buy and sell orders
 
 function getOnChainIndicators() {
   // Make a request to the Glassnode API to get the latest on-chain indicators for BTC
